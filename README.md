@@ -12,9 +12,12 @@ Provide a brief description about your project that answers the following questi
 * What technologies will you be using?
     HTML, CSS framework, neato design stuff, I don't know how to incorporate local storage into it... any ideas? I'd love to hear any thoughts or suggestions you have!
 
-## Project Proposal B
+## Project Proposal B - ..........?
 
 Provide a brief description about your project that answers the following questions:
+
+I know it's required to submit two ideas, but I didn't even get the idea to do a portfolio site until today, after talking with Ben. 
+I didn't come into this with ideas of things I want to build, just the desire to learn how to build things, so this is a huge challenge for me, personally.
 
 * What problem or need does your project solve?
 * Who would be a user of your website?
