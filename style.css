@@ -1,0 +1,36 @@
+/* font-family: 'Cantarell', sans-serif;
+font-family: 'Pontano Sans', sans-serif; */
+
+body {
+  background-color: #DDDBCB;
+  font-family: 'Cantarell', sans-serif;
+}
+
+.card {
+  background-color: #F5F1E3;
+}
+
+#test-text, #test-input, #textarea2 {
+  font-family: 'Pontano Sans', sans-serif;
+  color: #DDDBCB;
+  font-size: 18px;
+  background-color:#040404; 
+  padding-left:10px; 
+  padding-right:10px;
+  border-radius: 4px;
+}
+
+#timer {
+  font-size: 24px;
+}
+
+#result {
+  font-family: 'Pontano Sans', sans-serif;
+  color:#1B9AAA;
+  font-size: 24px;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}

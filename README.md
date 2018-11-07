@@ -1,5 +1,5 @@
 
-## Project Proposal B - Typing Speed & Accuracy Test
+## Project - Typing Speed & Accuracy Test
 
 Provide a brief description about your project that answers the following questions:
 

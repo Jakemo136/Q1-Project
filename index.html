@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Typing Speed Test</title>
+      <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/css?family=Cantarell|Pontano+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="card center-align">
+            <div class="row">
+              <div class="col s3"></div>
+              <div class="col s6">
+                <h1 style="color:#1B9AAA">Typing Speed Test</h1>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s2"></div>
+              <div class="col s8">
+                <h4 style="color:#1B9AAA">Click the text area below to generate a test, start typing to start the timer!</h4>
+              </div>
+              <div class="col s2"></div>
+            </div>  
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="col m6 s12">
+            <div class="input-field">
+              <input id="name" type="text">
+              <label for="name">Enter Your First Name or Nickname</label>
+            </div>
+          </div>
+          <div class="col m6 s12 right-align">
+            Your score is <span id="result">0</span> wpm
+          </div>
+        </div>
+        <div class="card">
+          <div class="row"></div>  
+          <div class="row">
+            <div class="col s12 center-align">
+              <div id="timer">1:00</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s8 offset-s2">
+              <div class="card" id="test-text" >
+                <span id="test-text">Click below to generate text!</span>
+              </div>
+            </div>
+          </div>
+            <div class="row">
+              <form class="col s8 offset-s2">
+                <div class="row">
+                  <div class="input-field col s12" id="test-input">
+                    <textarea id="textarea2" class="materialize-textarea"></textarea>
+                    <label for="textarea2">Type Here</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript" src="./main.js"></script>
+    </body>
+  </html>
+
+
+  
