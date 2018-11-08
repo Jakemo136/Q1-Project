@@ -32,7 +32,7 @@ restartButton.addEventListener("click", function(){
 // currently stored name and current score to the table
   function timer() {
     
-    let timeRemaining = 6
+    let timeRemaining = 60
     
     let thisTime = setInterval(function(){
       timeRemaining--;
@@ -76,7 +76,8 @@ restartButton.addEventListener("click", function(){
   function calculateScore() {
     let testResult = textArea.value
     let wordCount = []
-
+// added this for loop to split the typing result into array elements 5 characters long;
+// "words per minute" words are standardized as every 5 characters or keystrokes
     for (let i = 0; i < testResult.length; i += 5){ 
       wordCount.push(testResult.substr(i, 5)) 
     }
