@@ -75,9 +75,13 @@ restartButton.addEventListener("click", function(){
   
   function calculateScore() {
     let testResult = textArea.value
-    let typedWords = testResult.split(" ")
-    let wordCount = typedWords.length
-    score = wordCount
+    let wordCount = []
+
+    for (let i = 0; i < testResult.length; i += 5){ 
+      wordCount.push(testResult.substr(i, 5)) 
+    }
+    
+    score = wordCount.length
   }
 
   function populateTable() {
