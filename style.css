@@ -6,8 +6,15 @@ body {
   font-family: 'Cantarell', sans-serif;
 }
 
+/* .button {
+  color: #1B9AAA;
+} */
 .card {
   background-color: #F5F1E3;
+}
+
+label[for=name] {
+  color: #040404;
 }
 
 #test-text, #test-input, #textarea2 {
